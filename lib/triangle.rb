@@ -9,6 +9,7 @@ class Triangle
   
   
   def kind
+    a, b, c = @side1
 
 
 
