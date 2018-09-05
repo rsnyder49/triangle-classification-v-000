@@ -9,7 +9,7 @@ class Triangle
   
   
   def kind
-    a, b, c = @side1
+    a, b, c = [@side1, @side2, @side3].sort
 
 
 
