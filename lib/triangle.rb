@@ -22,20 +22,7 @@ class Triangle
     else 
       :scalene 
     end
-    
-        if (@side1 + @side2) > @side3 
-      begin
-        raise TriangleError
-      end
-      elsif (@side2 + @side3) > @side1 
-        begin 
-          raise TriangleError
-        end 
-      elsif (@side1 + @side3) > @side2 
-        begin 
-          raise TriangleError
-        end 
-      end 
+  
   end 
   
   class TriangleError < StandardError
