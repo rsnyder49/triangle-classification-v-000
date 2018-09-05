@@ -30,6 +30,7 @@ class Triangle
       begin
         raise TriangleError
       end
+    end
   
   end 
   
