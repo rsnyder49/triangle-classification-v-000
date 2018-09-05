@@ -10,7 +10,7 @@ class Triangle
   
   def kind
     a, b, c = [@side1, @side2, @side3].sort
-    if a <= 0 || b <= 0 || @c <= 0 || a + b >= c
+    if a <= 0 || b <= 0 || @c <= 0 || (a + b) >= c
       begin 
         raise TriangleError
       end 
