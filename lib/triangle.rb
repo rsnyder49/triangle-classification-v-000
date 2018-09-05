@@ -6,5 +6,6 @@ class Triangle
   
   def kind 
   end 
-  def Ti
+  
+  class TriangleError < StandardError
 end
